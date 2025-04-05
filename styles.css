@@ -1,0 +1,62 @@
+body {
+  background: url("https://i.postimg.cc/j5BP6c48/rift1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Gabarito", sans-serif;
+  margin: 20px;
+}
+
+.logo {
+  text-align: end;
+}
+
+.logo img {
+  width: 20%;
+}
+
+/* Caixa principal do jogo */
+.conteudo-jogo {
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 20px #b8860b;
+  margin: 10px;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+  align-items: center;
+  margin-top: 20rem;
+}
+
+.conteudo-jogo:hover {
+  background: rgba(0, 0, 0);
+  box-shadow: 0 0 5px #19caca;
+}
+
+/* Títulos e textos */
+h2,
+p {
+  color: white;
+}
+
+button {
+  padding: 10px 10px;
+  margin: 10px;
+  border: none;
+  background: #006400;
+  color: gold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #19caca;
+}
+
+/* Aqui vem a parte que você adicionou */
+#container {
+  position: relative;
+}
+
+.botao-jogar {
+  display: block;
+  margin: 60px auto 20px auto; /* top, left/right, bottom */
+}
